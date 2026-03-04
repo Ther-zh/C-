@@ -74,9 +74,9 @@
             <!-- 封面页 -->
             <div class="slide absolute inset-0 flex flex-col items-center justify-center p-8 opacity-0 transition-opacity duration-500" data-index="0">
                 <h1 class="text-[clamp(1.8rem,5vw,3.5rem)] font-bold text-primary text-center mb-6 text-shadow">C语言程序设计核心知识点复习讲座</h1>
-                <h2 class="text-[clamp(1.2rem,3vw,2rem)] text-secondary text-center mb-12">数组、字符串与指针核心知识梳理+竞赛入门引导</h2>
+                <h2 class="text-[clamp(1.2rem,3vw,2rem)] text-secondary text-center mb-12">数组、字符串与指针核心知识梳理</h2>
                 <div class="mt-8 text-lg text-gray-600 max-w-2xl text-center">
-                    <p>期末复习重点：二维数组、字符串、指针核心知识，附带竞赛入门引导</p>
+                    <p>期末复习重点：二维数组、字符串、指针核心知识</p>
                 </div>
                 <div class="mt-auto text-gray-500 text-sm">
                     <p>按 ← → 键或点击按钮翻页 | 按 Esc 退出全屏 | 按 T 显示目录</p>
@@ -86,12 +86,24 @@
             <!-- 目录页 -->
             <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="1">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-8 border-b-2 border-primary pb-2">讲座结构</h2>
-                <p class="text-lg mb-6">本次复习讲座按"核心知识点→易错点提醒→详细代码示例→现场实战题目"框架，共7大模块，确保每个知识点均有可直接编译的代码。</p>
+                <p class="text-lg mb-6">本次复习讲座按"核心知识点→易错点提醒→详细代码示例→现场实战题目"框架，共10大模块，确保每个知识点均有可直接编译的代码。</p>
                 
                 <div class="grid md:grid-cols-2 gap-6 mt-6">
                     <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
-                            <i class="fa fa-code-fork mr-2"></i>模块一：程序流程控制
+                            <i class="fa fa-cubes mr-2"></i>模块一：基本数据类型与运算符
+                        </h3>
+                        <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                            <li>基本数据类型</li>
+                            <li>类型转换</li>
+                            <li>运算符与优先级</li>
+                            <li>特殊运算符</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                        <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
+                            <i class="fa fa-code-fork mr-2"></i>模块二：程序流程控制
                         </h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
                             <li>顺序结构（基础执行逻辑）</li>
@@ -103,7 +115,7 @@
                     
                     <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
-                            <i class="fa fa-cubes mr-2"></i>模块二：一维数组
+                            <i class="fa fa-cubes mr-2"></i>模块三：一维数组
                         </h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
                             <li>数组定义与初始化</li>
@@ -115,7 +127,7 @@
                     
                     <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
-                            <i class="fa fa-table mr-2"></i>模块三：二维数组核心知识
+                            <i class="fa fa-table mr-2"></i>模块四：二维数组核心知识
                         </h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
                             <li>二维数组定义与初始化</li>
@@ -127,7 +139,7 @@
                     
                     <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
-                            <i class="fa fa-font mr-2"></i>模块四：字符串核心知识
+                            <i class="fa fa-font mr-2"></i>模块五：字符串核心知识
                         </h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
                             <li>C风格字符串（字符数组实现）</li>
@@ -138,7 +150,33 @@
                     
                     <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
-                            <i class="fa fa-link mr-2"></i>模块五：指针基础原理
+                            <i class="fa fa-code mr-2"></i>模块六：函数核心知识
+                        </h3>
+                        <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                            <li>函数定义与声明</li>
+                            <li>函数参数与返回值</li>
+                            <li>函数调用与传参方式</li>
+                            <li>递归函数</li>
+                            <li>函数作用域</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                        <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
+                            <i class="fa fa-cubes mr-2"></i>模块七：结构体核心知识
+                        </h3>
+                        <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                            <li>结构体定义与初始化</li>
+                            <li>结构体成员访问</li>
+                            <li>结构体数组</li>
+                            <li>结构体指针</li>
+                            <li>结构体作为函数参数</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                        <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
+                            <i class="fa fa-link mr-2"></i>模块八：指针基础原理
                         </h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
                             <li>指针定义与初始化</li>
@@ -150,7 +188,7 @@
                     
                     <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
-                            <i class="fa fa-code mr-2"></i>模块六：指针进阶应用
+                            <i class="fa fa-code mr-2"></i>模块九：指针进阶应用
                         </h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
                             <li>指针与数组</li>
@@ -161,33 +199,246 @@
                     
                     <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
-                            <i class="fa fa-code mr-2"></i>模块七：现场实战题目
+                            <i class="fa fa-code mr-2"></i>模块十：现场实战题目
                         </h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
                             <li>判断闰年（流程控制综合）</li>
                             <li>数组元素逆序存放</li>
                             <li>统计数组中偶数个数与和</li>
-                            <li>竞赛入门题（数组版A+B）</li>
+                            <li>矩阵转置（二维数组应用）</li>
+                            <li>字符串反转（字符串应用）</li>
+                            <li>指针操作数组（指针应用）</li>
                         </ul>
                     </div>
                     
-                    <div class="bg-blue-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                        <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
-                            <i class="fa fa-rocket mr-2"></i>竞赛入门引导
-                        </h3>
-                        <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
-                            <li>竞赛学习资源与平台</li>
-                            <li>学习经验分享</li>
-                            <li>后续学习路线建议</li>
+
+                </div>
+            </div>
+
+            <!-- 模块一：基本数据类型与运算符 - 开始 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="2">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块一：基本数据类型与运算符</h2>
+                <p class="text-lg mb-8">基本数据类型是C语言的基础，运算符是进行数据操作的核心工具。</p>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl shadow-md border border-blue-100">
+                        <div class="text-blue-600 text-4xl mb-4"><i class="fa fa-cubes"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">基本数据类型</h3>
+                        <ul class="list-disc list-inside ml-2 space-y-2 text-gray-700">
+                            <li>整型：int, short, long, long long</li>
+                            <li>浮点型：float, double</li>
+                            <li>字符型：char</li>
+                            <li>无类型：void</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl shadow-md border border-blue-100">
+                        <div class="text-blue-600 text-4xl mb-4"><i class="fa fa-calculator"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">运算符</h3>
+                        <ul class="list-disc list-inside ml-2 space-y-2 text-gray-700">
+                            <li>算术运算符：+, -, *, /, %</li>
+                            <li>关系运算符：>, <, >=, <=, ==, !=</li>
+                            <li>逻辑运算符：&&, ||, !</li>
+                            <li>赋值运算符：=, +=, -=, *=, /=, %=</li>
+                            <li>特殊运算符：sizeof, &, *, ++, --</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- 模块一：程序流程控制 - 开始 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="2">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块一：程序流程控制（程序的"骨架"）</h2>
-                <p class="text-lg mb-6">流程控制决定代码执行顺序，是编程的基础。期中考试重点考察：</p>
+            <!-- 1.1 基本数据类型 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="3">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">1.1 基本数据类型</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">核心概念</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li><strong>整型</strong>：用于存储整数，不同类型占用不同的字节数。</li>
+                        <li><strong>浮点型</strong>：用于存储小数，float为单精度，double为双精度。</li>
+                        <li><strong>字符型</strong>：用于存储单个字符，本质是1字节的整型。</li>
+                        <li><strong>void</strong>：表示无类型，主要用于函数返回值和指针。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：数据类型使用</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+int main() {
+    // 整型
+    int a = 10;
+    short b = 20;
+    long c = 30;
+    long long d = 40;
+    
+    // 浮点型
+    float e = 3.14f;
+    double f = 3.1415926;
+    
+    // 字符型
+    char g = 'A';
+    
+    // 输出各类型的值和大小
+    printf("int a = %d, 大小：%d字节\n", a, sizeof(a));
+    printf("short b = %d, 大小：%d字节\n", b, sizeof(b));
+    printf("long c = %ld, 大小：%d字节\n", c, sizeof(c));
+    printf("long long d = %lld, 大小：%d字节\n", d, sizeof(d));
+    printf("float e = %f, 大小：%d字节\n", e, sizeof(e));
+    printf("double f = %lf, 大小：%d字节\n", f, sizeof(f));
+    printf("char g = %c, ASCII值：%d, 大小：%d字节\n", g, g, sizeof(g));
+    
+    return 0;
+}</code></pre>
+                </div>
+            </div>
+
+            <!-- 1.2 运算符与优先级 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="4">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">1.2 运算符与优先级</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">运算符优先级（从高到低）</h3>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+                            <thead>
+                                <tr class="bg-gray-100">
+                                    <th class="py-3 px-4 border-b text-left">优先级</th>
+                                    <th class="py-3 px-4 border-b text-left">运算符</th>
+                                    <th class="py-3 px-4 border-b text-left">说明</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="py-3 px-4 border-b">1</td>
+                                    <td class="py-3 px-4 border-b font-mono">() [] -&gt; .</td>
+                                    <td class="py-3 px-4 border-b">括号、数组下标、结构体成员访问</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-3 px-4 border-b">2</td>
+                                    <td class="py-3 px-4 border-b font-mono">! ~ ++ -- + - * & sizeof</td>
+                                    <td class="py-3 px-4 border-b">逻辑非、按位取反、自增自减、正负号、指针、取地址、大小</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 border-b">3</td>
+                                    <td class="py-3 px-4 border-b font-mono">* / %</td>
+                                    <td class="py-3 px-4 border-b">乘、除、取模</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-3 px-4 border-b">4</td>
+                                    <td class="py-3 px-4 border-b font-mono">+ -</td>
+                                    <td class="py-3 px-4 border-b">加、减</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 border-b">5</td>
+                                    <td class="py-3 px-4 border-b font-mono">&lt;&lt; &gt;&gt;</td>
+                                    <td class="py-3 px-4 border-b">左移、右移</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-3 px-4 border-b">6</td>
+                                    <td class="py-3 px-4 border-b font-mono">&lt; &lt;= &gt; &gt;=</td>
+                                    <td class="py-3 px-4 border-b">关系运算符</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 border-b">7</td>
+                                    <td class="py-3 px-4 border-b font-mono">== !=</td>
+                                    <td class="py-3 px-4 border-b">相等、不等</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-3 px-4 border-b">8</td>
+                                    <td class="py-3 px-4 border-b font-mono">&amp;</td>
+                                    <td class="py-3 px-4 border-b">按位与</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 border-b">9</td>
+                                    <td class="py-3 px-4 border-b font-mono">^</td>
+                                    <td class="py-3 px-4 border-b">按位异或</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-3 px-4 border-b">10</td>
+                                    <td class="py-3 px-4 border-b font-mono">|</td>
+                                    <td class="py-3 px-4 border-b">按位或</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 border-b">11</td>
+                                    <td class="py-3 px-4 border-b font-mono">&&</td>
+                                    <td class="py-3 px-4 border-b">逻辑与</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-3 px-4 border-b">12</td>
+                                    <td class="py-3 px-4 border-b font-mono">||</td>
+                                    <td class="py-3 px-4 border-b">逻辑或</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 px-4 border-b">13</td>
+                                    <td class="py-3 px-4 border-b font-mono">?:</td>
+                                    <td class="py-3 px-4 border-b">条件运算符</td>
+                                </tr>
+                                <tr class="bg-gray-50">
+                                    <td class="py-3 px-4 border-b">14</td>
+                                    <td class="py-3 px-4 border-b font-mono">= += -= *= /= %= &amp;= ^= |= &lt;&lt;= &gt;&gt;=</td>
+                                    <td class="py-3 px-4 border-b">赋值运算符</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：运算符使用</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+int main() {
+    int a = 10, b = 3;
+    
+    // 算术运算符
+    printf("a + b = %d\n", a + b);  // 13
+    printf("a - b = %d\n", a - b);  // 7
+    printf("a * b = %d\n", a * b);  // 30
+    printf("a / b = %d\n", a / b);  // 3（整数除法）
+    printf("a %% b = %d\n", a % b);  // 1（取模）
+    
+    // 关系运算符
+    printf("a > b: %d\n", a > b);  // 1（真）
+    printf("a == b: %d\n", a == b);  // 0（假）
+    
+    // 逻辑运算符
+    printf("a > 5 && b < 5: %d\n", a > 5 && b < 5);  // 1（真）
+    printf("a > 15 || b < 5: %d\n", a > 15 || b < 5);  // 1（真）
+    printf("! (a > b): %d\n", !(a > b));  // 0（假）
+    
+    // 赋值运算符
+    int c = a;
+    printf("c = %d\n", c);  // 10
+    c += b;
+    printf("c += b: %d\n", c);  // 13
+    
+    // 自增自减运算符
+    int d = 5;
+    printf("d = %d\n", d);  // 5
+    printf("d++ = %d\n", d++);  // 5（先使用后自增）
+    printf("d = %d\n", d);  // 6
+    printf("++d = %d\n", ++d);  // 7（先自增后使用）
+    
+    return 0;
+}</code></pre>
+                </div>
+                
+                <div class="mt-4">
+                    <h4 class="font-semibold text-red-600 mb-2">易错点提醒</h4>
+                    <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
+                        <li>整数除法：5 / 2 结果为2，不是2.5，需要使用浮点型。</li>
+                        <li>运算符优先级：尽量使用括号明确运算顺序，避免依赖优先级规则。</li>
+                        <li>自增自减：前缀和后缀的区别，前缀先自增后使用，后缀先使用后自增。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 模块一：基本数据类型与运算符 - 结束 -->
+
+            <!-- 模块二：程序流程控制 - 开始 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="5">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块二：程序流程控制（程序的"骨架"）</h2>
+                <p class="text-lg mb-6">流程控制决定代码执行顺序，是编程的基础。期末考试重点考察：</p>
                 
                 <div class="grid md:grid-cols-3 gap-8 mt-8">
                     <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl shadow-md border border-blue-100">
@@ -211,7 +462,7 @@
             </div>
 
             <!-- 1.1 顺序结构 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="3">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="6">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">1.1 顺序结构（基础执行逻辑）</h2>
                 
                 <div class="mb-8">
@@ -224,8 +475,7 @@
                 
                 <div>
                     <h3 class="text-xl font-semibold mb-3 text-gray-800">详细代码示例（输入两个数，输出和与差）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto overflow-y-auto code-block" style="max-height: none;"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto overflow-y-auto code-block" style="max-height: none;"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     // 步骤1：定义变量（顺序1）
@@ -233,18 +483,18 @@ int main() {
     int sum, diff;
 
     // 步骤2：输入数据（顺序2）
-    cout << "请输入第一个整数：";
-    cin >> num1;  // 等待用户输入，存入num1
-    cout << "请输入第二个整数：";
-    cin >> num2;  // 等待用户输入，存入num2
+    printf("请输入第一个整数：");
+    scanf("%d", &num1);  // 等待用户输入，存入num1
+    printf("请输入第二个整数：");
+    scanf("%d", &num2);  // 等待用户输入，存入num2
 
     // 步骤3：计算（顺序3）
     sum = num1 + num2;   // 求和
     diff = num1 - num2;  // 求差
 
     // 步骤4：输出结果（顺序4）
-    cout << "两数之和：" << sum << endl;
-    cout << "两数之差：" << diff << endl;
+    printf("两数之和：%d\n", sum);
+    printf("两数之差：%d\n", diff);
 
     return 0;
 }</code></pre>
@@ -255,17 +505,11 @@ int main() {
                     <p class="text-yellow-800 text-sm">输入15 7，输出：两数之和：22，两数之差：8</p>
                 </div>
                 
-                <div class="mt-4">
-                    <h4 class="font-semibold text-red-600 mb-2">易错点提醒</h4>
-                    <ul class="list-disc list-inside ml-4 space-y-1 text-gray-700">
-                        <li>输入时若漏写cin >>（如只写num1;），变量会是随机值，导致计算结果错误。</li>
-                        <li>输出时漏写<<（如cout "sum=" sum;），会直接编译报错。</li>
-                    </ul>
-                </div>
+                
             </div>
 
             <!-- 1.2 选择结构 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="4">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="7">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">1.2 选择结构（分支判断）</h2>
                 <h3 class="text-xl font-semibold mb-4 text-gray-800">1.2.1 if/if-else/if-else if-else</h3>
                 
@@ -308,36 +552,35 @@ int main() {
             </div>
 
             <!-- 1.2.1 代码示例（成绩评级） -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="5">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="8">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">代码示例：成绩评级（if-else if-else）</h2>
                 
-                <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block flex-grow"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block flex-grow"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int score;
-    cout << "请输入成绩（0-100）：";
-    cin >> score;
+    printf("请输入成绩（0-100）：");
+    scanf("%d", &score);
 
     // 第一步：判断输入是否合法（先处理非法情况）
     if (score < 0 || score > 100) {
-        cout << "输入错误！成绩必须在0-100之间" << endl;
+        printf("输入错误！成绩必须在0-100之间\n");
         return 1;  // 非0返回值表示程序异常结束
     }
 
     // 第二步：合法成绩评级（条件顺序：从高分到低分，避免覆盖）
     if (score >= 90) {
-        cout << "成绩等级：A（优秀）" << endl;
-        cout << "奖励：期末免考" << endl;
+        printf("成绩等级：A（优秀）\n");
+        printf("奖励：期末免考\n");
     } else if (score >= 80) {
-        cout << "成绩等级：B（良好）" << endl;
-        cout << "奖励：额外实验加分" << endl;
+        printf("成绩等级：B（良好）\n");
+        printf("奖励：额外实验加分\n");
     } else if (score >= 60) {
-        cout << "成绩等级：C（及格）" << endl;
-        cout << "提示：继续加油！" << endl;
+        printf("成绩等级：C（及格）\n");
+        printf("提示：继续加油！\n");
     } else {
-        cout << "成绩等级：D（不及格）" << endl;
-        cout << "提示：需要参加补考" << endl;
+        printf("成绩等级：D（不及格）\n");
+        printf("提示：需要参加补考\n");
     }
 
     return 0;
@@ -350,7 +593,7 @@ int main() {
             </div>
 
             <!-- 1.2.2 switch语句 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="6">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="9">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">1.2.2 switch语句（多值匹配）</h2>
                 
                 <div class="mb-6">
@@ -378,11 +621,10 @@ int main() {
             </div>
 
             <!-- 1.2.2 代码示例（简易计算器） -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="7">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="10">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">代码示例：简易菜单选择（计算圆的周长/面积/体积）</h2>
                 
-                <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block flex-grow"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block flex-grow"><code class="language-cpp">#include &lt;stdio.h&gt;
 #define PI 3.14159  // 定义常量PI（圆周率）
 
 int main() {
@@ -390,30 +632,30 @@ int main() {
     int choice;
 
     // 1. 显示菜单
-    cout << "===== 圆计算工具 =====" << endl;
-    cout << "1. 计算周长（C=2πr）" << endl;
-    cout << "2. 计算面积（S=πr²）" << endl;
-    cout << "3. 计算球体体积（V=(4/3)πr³）" << endl;
-    cout << "请选择功能（1-3）：";
-    cin >> choice;
+    printf("===== 圆计算工具 =====\n");
+    printf("1. 计算周长（C=2πr）\n");
+    printf("2. 计算面积（S=πr²）\n");
+    printf("3. 计算球体体积（V=(4/3)πr³）\n");
+    printf("请选择功能（1-3）：");
+    scanf("%d", &choice);
 
     // 2. 输入半径
-    cout << "请输入圆的半径：";
-    cin >> r;
+    printf("请输入圆的半径：");
+    scanf("%lf", &r);
 
     // 3. switch匹配功能
     switch (choice) {
         case 1:
-            cout << "圆的周长：" << 2 * PI * r << endl;
+            printf("圆的周长：%lf\n", 2 * PI * r);
             break;  // 必须加，否则会执行case2的代码
         case 2:
-            cout << "圆的面积：" << PI * r * r << endl;
+            printf("圆的面积：%lf\n", PI * r * r);
             break;
         case 3:
-            cout << "球体体积：" << (4.0 / 3) * PI * r * r * r << endl;
+            printf("球体体积：%lf\n", (4.0 / 3) * PI * r * r * r);
             break;  // 注意：4.0/3才是小数，4/3是整数1
         default:
-            cout << "选择错误！请输入1-3之间的数字" << endl;
+            printf("选择错误！请输入1-3之间的数字\n");
             break;  // 虽然是最后一个，加break更规范
     }
 
@@ -427,7 +669,7 @@ int main() {
             </div>
 
             <!-- 1.3 循环结构 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="8">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="11">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">1.3 循环结构（重复执行）</h2>
                 
                 <div class="overflow-x-auto">
@@ -465,27 +707,26 @@ int main() {
             </div>
 
             <!-- 1.3 循环结构示例 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="9">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="12">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">循环结构：详细代码示例</h2>
                 
                 <div class="mb-6">
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">for循环计算1~n的累加和（已知次数）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto overflow-y-auto code-block" style="max-height: none;"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto overflow-y-auto code-block" style="max-height: none;"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int n, sum = 0;  // sum初始化为0（必须初始化，否则是随机值）
-    cout << "请输入n（计算1~n的和）：";
-    cin >> n;
+    printf("请输入n（计算1~n的和）：");
+    scanf("%d", &n);
 
     // for循环：初始化i=1；i<=n时执行循环；每次i+1
     for (int i = 1; i <= n; i++) {
         sum += i;  // 等价于sum = sum + i
         // 可选：打印每次累加过程（帮助调试）
-        cout << "当前i=" << i << ", sum=" << sum << endl;
+        printf("当前i=%d, sum=%d\n", i, sum);
     }
 
-    cout << "1~" << n << "的累加和：" << sum << endl;
+    printf("1~%d的累加和：%d\n", n, sum);
     return 0;
 }</code></pre>
                     <div class="mt-2 bg-blue-50 p-3 rounded border border-blue-100">
@@ -503,7 +744,7 @@ int main() {
             </div>
 
             <!-- 1.3.2 循环嵌套 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="10">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="13">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">1.3.2 循环嵌套（多层重复）</h2>
                 
                 <div class="mb-6">
@@ -516,17 +757,16 @@ int main() {
                 
                 <div class="mb-4">
                     <h3 class="text-xl font-semibold mb-3 text-gray-800">详细代码示例：打印5行4列的矩形（*组成）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     // 外循环：控制行数（5行）
     for (int row = 1; row <= 5; row++) {
         // 内循环：控制每行的列数（4列，每行打印4个*）
         for (int col = 1; col <= 4; col++) {
-            cout << "* ";  // 每个*后加空格，让图形更整齐
+            printf("* ");  // 每个*后加空格，让图形更整齐
         }
-        cout << endl;  // 每行结束后换行
+        printf("\n");  // 每行结束后换行
     }
 
     return 0;
@@ -547,9 +787,9 @@ int main() {
             <!-- 模块一：程序流程控制 - 结束 -->
 
             <!-- 模块二：一维数组 - 开始 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="11">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="14">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块二：一维数组（数据的"容器"）</h2>
-                <p class="text-lg mb-8">数组是连续存储的同类型数据集合，是存储批量数据的核心工具。期中考试重点考察一维数组。</p>
+                <p class="text-lg mb-8">数组是连续存储的同类型数据集合，是存储批量数据的核心工具。期末考试重点考察一维数组。</p>
                 
                 <div class="grid md:grid-cols-2 gap-8">
                     <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl shadow-md border border-purple-100">
@@ -576,8 +816,8 @@ int main() {
                 </div>
             </div>
 
-            <!-- 2.1 一维数组基础 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="12">
+            <!-- 2.1 一维数组核心知识点 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="15">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">2.1 一维数组核心知识点</h2>
                 
                 <div class="mb-6">
@@ -590,8 +830,7 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">定义与初始化（三种方式）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     // 1. 完全初始化：元素个数与初始化列表一致
@@ -602,17 +841,17 @@ int main() {
     int arr3[] = {10, 20, 30, 40};
 
     // 打印数组元素（验证初始化结果）
-    cout << "arr1（完全初始化）：";
+    printf("arr1（完全初始化）：");
     for (int i = 0; i < 3; i++) {
-        cout << arr1[i] << " ";  // 输出：10 20 30
+        printf("%d ", arr1[i]);  // 输出：10 20 30
     }
-    cout << "\narr2（部分初始化）：";
+    printf("\narr2（部分初始化）：");
     for (int i = 0; i < 3; i++) {
-        cout << arr2[i] << " ";  // 输出：10 0 0
+        printf("%d ", arr2[i]);  // 输出：10 0 0
     }
-    cout << "\narr3（省略长度）：";
+    printf("\narr3（省略长度）：");
     for (int i = 0; i < 4; i++) {
-        cout << arr3[i] << " ";  // 输出：10 20 30 40
+        printf("%d ", arr3[i]);  // 输出：10 20 30 40
     }
 
     return 0;
@@ -629,7 +868,7 @@ int main() {
             </div>
 
             <!-- 2.1.2 数组长度计算 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="13">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="16">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">2.1.2 数组长度计算（核心公式）</h2>
                 
                 <div class="mb-6">
@@ -643,19 +882,18 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">详细代码示例：动态计算长度并遍历</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int arr[] = {5, 8, 2, 10, 3};  // 数组长度为5
     // 计算长度：总字节数（5×4=20） / 单个int字节数（4）=5
     int len = sizeof(arr) / sizeof(int);
 
-    cout << "数组长度：" << len << endl;
-    cout << "数组元素：";
+    printf("数组长度：%d\n", len);
+    printf("数组元素：");
     // 用计算的长度遍历（避免硬编码5，数组修改后无需改循环条件）
     for (int i = 0; i < len; i++) {
-        cout << arr[i] << " ";  // 输出：5 8 2 10 3
+        printf("%d ", arr[i]);  // 输出：5 8 2 10 3
     }
 
     return 0;
@@ -669,13 +907,12 @@ int main() {
             </div>
 
             <!-- 2.1.3 一维数组典型操作 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="14">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="17">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">2.1.3 一维数组典型操作</h2>
                 
                 <div class="mb-6">
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">输入5个整数，求和与平均值</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int arr[5];
@@ -685,8 +922,8 @@ int main() {
 
     // 1. 输入5个整数到数组
     for (int i = 0; i < len; i++) {
-        cout << "请输入第" << i+1 << "个整数：";
-        cin >> arr[i];
+        printf("请输入第%d个整数：", i+1);
+        scanf("%d", &arr[i]);
     }
 
     // 2. 计算总和
@@ -698,12 +935,12 @@ int main() {
     avg = (double)sum / len;
 
     // 4. 输出结果
-    cout << "数组元素：";
+    printf("数组元素：");
     for (int i = 0; i < len; i++) {
-        cout << arr[i] << " ";
+        printf("%d ", arr[i]);
     }
-    cout << "\n总和：" << sum << endl;
-    cout << "平均值：" << avg << endl;  // 如输入1-5，输出平均值3.0
+    printf("\n总和：%d\n", sum);
+    printf("平均值：%lf\n", avg);  // 如输入1-5，输出平均值3.0
 
     return 0;
 }</code></pre>
@@ -711,7 +948,7 @@ int main() {
             </div>
 
             <!-- 2.1.3 找最值 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="15">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="18">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">找数组中的最大值与最小值</h2>
                 
                 <div class="mb-6">
@@ -726,8 +963,7 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">代码实现</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto overflow-y-auto code-block" style="max-height: none;"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto overflow-y-auto code-block" style="max-height: none;"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int arr[] = {7, 3, 9, 1, 5};
@@ -751,15 +987,15 @@ int main() {
     }
 
     // 输出数组元素
-    cout << "数组元素：";
+    printf("数组元素：");
     for (int i = 0; i < len; i++) {
-        cout << arr[i] << " ";
+        printf("%d ", arr[i]);
     }
-    cout << endl;
+    printf("\n");
     
     // 输出结果
-    cout << "最大值：" << max_val << endl;  // 输出9
-    cout << "最小值：" << min_val << endl;  // 输出1
+    printf("最大值：%d\n", max_val);  // 输出9
+    printf("最小值：%d\n", min_val);  // 输出1
 
     return 0;
 }</code></pre>
@@ -767,8 +1003,8 @@ int main() {
             </div>
 
             <!-- 2.2 一维数组与字符串的基础关联 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="16">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">2.2 一维数组与字符串的基础关联（浅尝拓展）</h2>
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="19">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">2.2 一维数组与字符串的基础关联</h2>
                 
                 <div class="mb-6">
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">核心概念</h3>
@@ -780,9 +1016,8 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">字符串与字符数组的对比</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-#include &lt;cstring&gt;  // 用于strlen（计算字符串有效长度）
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;  // 用于strlen（计算字符串有效长度）
 
 int main() {
     // 1. C风格字符串（以'\0'结尾）
@@ -793,27 +1028,26 @@ int main() {
     char arr[] = {'h', 'e', 'l', 'l', 'o'};  // 长度5，无'\0'
 
     // 对比1：输出（字符串会自动到'\0'停止，普通数组会输出垃圾值）
-    cout << "str1（字符串）：" << str1 << endl;  // 输出hello
-    cout << "arr（普通字符数组）：" << arr << endl;  // 输出hello+乱码（无'\0'终止）
+    printf("str1（字符串）：%s\n", str1);  // 输出hello
+    printf("arr（普通字符数组）：%s\n", arr);  // 输出hello+乱码（无'\0'终止）
 
     // 对比2：长度计算（strlen算有效字符，sizeof算总字节数）
-    cout << "str1的有效长度（strlen）：" << strlen(str1) << endl;  // 5（不含'\0'）
-    cout << "str1的总字节数（sizeof）：" << sizeof(str1) << endl;  // 6（含'\0'）
-    cout << "arr的总字节数（sizeof）：" << sizeof(arr) << endl;    // 5（无'\0'）
+    printf("str1的有效长度（strlen）：%d\n", strlen(str1));  // 5（不含'\0'）
+    printf("str1的总字节数（sizeof）：%d\n", sizeof(str1));  // 6（含'\0'）
+    printf("arr的总字节数（sizeof）：%d\n", sizeof(arr));    // 5（无'\0'）
 
     return 0;
 }</code></pre>
                 </div>
                 
                 <div class="mt-4 bg-blue-50 p-4 rounded-lg">
-                    <h4 class="font-semibold text-blue-800 mb-2">一句话过渡：</h4>
-                    <p class="text-gray-700">"现在只需知道：字符串是特殊的字符数组，学好一维数组，后面学字符串会非常轻松，比如后面可以用数组实现字符串的反转、拼接等操作～"</p>
+                    <p class="text-gray-700">"字符串是特殊的字符数组，学好一维数组，后面的字符串也是同理，比如后面可以用数组实现字符串的反转、拼接等操作～"</p>
                 </div>
             </div>
             <!-- 模块二：一维数组 - 结束 -->
 
             <!-- 模块三：二维数组核心知识 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="17">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="20">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块三：二维数组核心知识</h2>
                 <p class="text-lg mb-8">二维数组是元素为一维数组的一维数组，概念上是二维的（行+列），但在物理内存中依然是连续的线性存储。</p>
                 
@@ -842,7 +1076,7 @@ int main() {
             </div>
 
             <!-- 3.1 二维数组定义与初始化 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="18">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="21">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">3.1 二维数组定义与初始化</h2>
                 
                 <div class="mb-6">
@@ -855,8 +1089,7 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">初始化方式</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     // 1. 按行分段初始化
@@ -876,12 +1109,12 @@ int main() {
     d[1][1] = 4;
     
     // 打印数组元素
-    cout << "a数组：" << endl;
+    printf("a数组：\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 3; j++) {
-            cout << a[i][j] << " ";
+            printf("%d ", a[i][j]);
         }
-        cout << endl;
+        printf("\n");
     }
     
     return 0;
@@ -898,7 +1131,7 @@ int main() {
             </div>
 
             <!-- 3.2 二维数组遍历与访问 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="19">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="22">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">3.2 二维数组遍历与访问</h2>
                 
                 <div class="mb-6">
@@ -911,8 +1144,7 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：计算二维数组元素和</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int arr[3][4] = {
@@ -926,12 +1158,12 @@ int main() {
     for (int i = 0; i < 3; i++) {  // 外层循环：行
         for (int j = 0; j < 4; j++) {  // 内层循环：列
             sum += arr[i][j];
-            cout << arr[i][j] << " ";
+            printf("%d ", arr[i][j]);
         }
-        cout << endl;
+        printf("\n");
     }
     
-    cout << "数组元素总和：" << sum << endl;  // 输出78
+    printf("数组元素总和：%d\n", sum);  // 输出78
     
     return 0;
 }</code></pre>
@@ -939,7 +1171,7 @@ int main() {
             </div>
 
             <!-- 模块四：字符串核心知识 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="20">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="23">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块四：字符串核心知识</h2>
                 <p class="text-lg mb-8">字符串是开发中最高频使用的数据类型，C++中分为C风格字符串和C++ string类字符串两类。</p>
                 
@@ -957,19 +1189,19 @@ int main() {
                     
                     <div class="bg-gradient-to-br from-pink-50 to-red-50 p-6 rounded-xl shadow-md border border-pink-100">
                         <div class="text-pink-600 text-4xl mb-4"><i class="fa fa-cogs"></i></div>
-                        <h3 class="text-xl font-bold mb-3 text-center">C++ string类</h3>
+                        <h3 class="text-xl font-bold mb-3 text-center">字符串操作函数</h3>
                         <ul class="list-disc list-inside ml-2 space-y-2 text-gray-700">
-                            <li>封装内存管理</li>
-                            <li>安全易用</li>
-                            <li>丰富的成员方法</li>
-                            <li>运算符重载</li>
+                            <li>strlen：计算字符串长度</li>
+                            <li>strcpy：复制字符串</li>
+                            <li>strcat：拼接字符串</li>
+                            <li>strcmp：比较字符串</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <!-- 4.1 C风格字符串 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="21">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="24">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">4.1 C风格字符串（字符数组实现）</h2>
                 
                 <div class="mb-6">
@@ -982,9 +1214,8 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">初始化与操作</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-#include &lt;cstring&gt;  // 字符串库函数
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;  // 字符串库函数
 
 int main() {
     // 1. 双引号直接赋值（自动补'\0'）
@@ -997,13 +1228,13 @@ int main() {
     char c3[5] = {'a', 'b', 'c'};
     
     // 输出字符串
-    cout << "c1: " << c1 << endl;  // 输出abc
-    cout << "c2: " << c2 << endl;  // 输出abc
-    cout << "c3: " << c3 << endl;  // 输出abc
+    printf("c1: %s\n", c1);  // 输出abc
+    printf("c2: %s\n", c2);  // 输出abc
+    printf("c3: %s\n", c3);  // 输出abc
     
     // 长度计算
-    cout << "c1长度（strlen）：" << strlen(c1) << endl;  // 3（不含'\0'）
-    cout << "c1总字节数（sizeof）：" << sizeof(c1) << endl;  // 4（含'\0'）
+    printf("c1长度（strlen）：%d\n", strlen(c1));  // 3（不含'\0'）
+    printf("c1总字节数（sizeof）：%d\n", sizeof(c1));  // 4（含'\0'）
     
     return 0;
 }</code></pre>
@@ -1018,49 +1249,50 @@ int main() {
                 </div>
             </div>
 
-            <!-- 4.2 C++ string类字符串 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="22">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">4.2 C++ string类字符串（推荐使用）</h2>
+            <!-- 4.2 字符串操作函数 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="25">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">4.2 字符串操作函数</h2>
                 
                 <div class="mb-6">
-                    <h3 class="text-lg font-semibold mb-3 text-gray-800">核心优势</h3>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">常用字符串函数</h3>
                     <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
-                        <li>无需手动处理'\0'，无数组越界风险。</li>
-                        <li>封装了内存管理，使用更安全。</li>
-                        <li>支持直接用+、+=运算符拼接字符串。</li>
-                        <li>支持直接用>、<、==等运算符比较字符串。</li>
+                        <li><strong>strlen()</strong>：计算字符串长度（不含'\0'）</li>
+                        <li><strong>strcpy()</strong>：复制字符串</li>
+                        <li><strong>strcat()</strong>：拼接字符串</li>
+                        <li><strong>strcmp()</strong>：比较字符串</li>
                     </ul>
                 </div>
                 
                 <div>
-                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-#include &lt;string&gt;  // string类头文件
-using namespace std;
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：字符串操作函数</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;  // 字符串函数头文件
 
 int main() {
-    // 定义与初始化
-    string s1 = "Hello";
-    string s2("World");
+    // 定义字符串
+    char s1[20] = "Hello";
+    char s2[20] = "World";
+    char s3[40];
     
     // 字符串拼接
-    string s3 = s1 + " " + s2;
-    cout << "s3: " << s3 << endl;  // 输出Hello World
+    strcpy(s3, s1);  // 先复制s1到s3
+    strcat(s3, " ");  // 拼接空格
+    strcat(s3, s2);  // 拼接s2
+    printf("s3: %s\n", s3);  // 输出Hello World
     
     // 字符串长度
-    cout << "s3长度：" << s3.length() << endl;  // 11
+    printf("s3长度：%d\n", strlen(s3));  // 11
     
     // 字符串比较
-    string s4 = "apple";
-    string s5 = "banana";
-    if (s4 < s5) {
-        cout << s4 << " < " << s5 << endl;
-    }
-    
-    // 字符串查找
-    size_t pos = s3.find("World");
-    if (pos != string::npos) {
-        cout << "找到'World'，位置：" << pos << endl;
+    char s4[] = "apple";
+    char s5[] = "banana";
+    int result = strcmp(s4, s5);
+    if (result < 0) {
+        printf("%s < %s\n", s4, s5);
+    } else if (result > 0) {
+        printf("%s > %s\n", s4, s5);
+    } else {
+        printf("%s = %s\n", s4, s5);
     }
     
     return 0;
@@ -1068,10 +1300,245 @@ int main() {
                 </div>
             </div>
 
-            <!-- 模块五：指针基础原理 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="23">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块五：指针基础原理</h2>
-                <p class="text-lg mb-8">指针是C++的核心灵魂，本质是对内存地址的直接操作，是实现数组、字符串、函数高级用法的底层基础。</p>
+            <!-- 模块五：函数核心知识 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="26">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块五：函数核心知识</h2>
+                <p class="text-lg mb-8">函数是C语言中代码复用的基本单位，是实现模块化编程的核心。</p>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-br from-green-50 to-teal-50 p-6 rounded-xl shadow-md border border-green-100">
+                        <div class="text-green-600 text-4xl mb-4"><i class="fa fa-code"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">函数基础</h3>
+                        <ul class="list-disc list-inside ml-2 space-y-2 text-gray-700">
+                            <li>函数定义与声明</li>
+                            <li>函数参数与返回值</li>
+                            <li>函数调用</li>
+                            <li>函数原型</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-green-50 to-teal-50 p-6 rounded-xl shadow-md border border-green-100">
+                        <div class="text-green-600 text-4xl mb-4"><i class="fa fa-cogs"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">函数高级应用</h3>
+                        <ul class="list-disc list-inside ml-2 space-y-2 text-gray-700">
+                            <li>传值与传址</li>
+                            <li>递归函数</li>
+                            <li>函数作用域</li>
+                            <li>函数与数组</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5.1 函数定义与声明 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="27">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">5.1 函数定义与声明</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">核心概念</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li><strong>函数定义</strong>：包含函数的完整实现，包括返回值类型、函数名、参数列表和函数体。</li>
+                        <li><strong>函数声明</strong>：也称为函数原型，告诉编译器函数的存在和接口，不包含函数体。</li>
+                        <li><strong>函数调用</strong>：执行函数的过程，需要提供与参数列表匹配的实参。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：函数定义与调用</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+// 函数声明（函数原型）
+int add(int a, int b);
+void printHello();
+
+int main() {
+    // 调用函数
+    int result = add(5, 3);
+    printf("5 + 3 = %d\n", result);
+    
+    printHello();
+    
+    return 0;
+}
+
+// 函数定义
+int add(int a, int b) {
+    return a + b;
+}
+
+void printHello() {
+    printf("Hello, World!\n");
+}</code></pre>
+                </div>
+            </div>
+
+            <!-- 5.2 函数参数与返回值 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="28">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">5.2 函数参数与返回值</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">传参方式</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li><strong>传值调用</strong>：将实参的值复制给形参，函数内修改不影响实参。</li>
+                        <li><strong>传址调用</strong>：将实参的地址传递给形参，函数内修改会影响实参。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：传值与传址</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+// 传值调用
+void changeValue(int x) {
+    x = 100;
+    printf("函数内x = %d\n", x);
+}
+
+// 传址调用
+void changeValueByAddress(int *x) {
+    *x = 200;
+    printf("函数内*x = %d\n", *x);
+}
+
+int main() {
+    int a = 10;
+    printf("初始a = %d\n", a);
+    
+    // 传值调用
+    changeValue(a);
+    printf("传值后a = %d\n", a);  // a不变
+    
+    // 传址调用
+    changeValueByAddress(&a);
+    printf("传址后a = %d\n", a);  // a改变
+    
+    return 0;
+}</code></pre>
+                </div>
+                
+                <div class="mt-4">
+                    <h4 class="font-semibold text-red-600 mb-2">易错点提醒</h4>
+                    <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
+                        <li>传值调用时，函数内修改形参不会影响实参。</li>
+                        <li>传址调用时，需要使用指针作为形参，并在调用时传递实参的地址。</li>
+                        <li>函数返回值类型要与函数声明一致，否则会导致编译错误。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 5.3 递归函数 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="29">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">5.3 递归函数</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">核心概念</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li><strong>递归</strong>：函数调用自身的过程。</li>
+                        <li><strong>递归条件</strong>：包括递归终止条件和递归调用条件。</li>
+                        <li><strong>适用场景</strong>：阶乘、斐波那契数列、树结构遍历等。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：递归计算阶乘</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+// 递归函数计算阶乘
+int factorial(int n) {
+    // 递归终止条件
+    if (n == 0 || n == 1) {
+        return 1;
+    }
+    // 递归调用
+    return n * factorial(n - 1);
+}
+
+int main() {
+    int num = 5;
+    printf("%d! = %d\n", num, factorial(num));  // 输出5! = 120
+    
+    return 0;
+}</code></pre>
+                </div>
+                
+                <div class="mt-4">
+                    <h4 class="font-semibold text-red-600 mb-2">易错点提醒</h4>
+                    <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
+                        <li>必须设置递归终止条件，否则会导致无限递归，栈溢出。</li>
+                        <li>递归深度不宜过深，否则会导致栈溢出。</li>
+                        <li>递归函数的时间复杂度较高，对于大规模问题，建议使用迭代方法。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 5.4 函数与数组 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="30">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">5.4 函数与数组</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">核心概念</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li>数组名作为函数参数时，会自动退化为指针。</li>
+                        <li>函数内无法通过sizeof获取数组的实际长度，需要额外传递长度参数。</li>
+                        <li>通过指针可以在函数内修改数组元素的值。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：函数处理数组</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+// 函数：计算数组元素和
+int sumArray(int arr[], int length) {
+    int sum = 0;
+    for (int i = 0; i < length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+// 函数：修改数组元素（将所有元素乘以2）
+void doubleArray(int arr[], int length) {
+    for (int i = 0; i < length; i++) {
+        arr[i] *= 2;
+    }
+}
+
+int main() {
+    int numbers[] = {1, 2, 3, 4, 5};
+    int len = sizeof(numbers) / sizeof(numbers[0]);
+    
+    // 计算数组和
+    int total = sumArray(numbers, len);
+    printf("数组和：%d\n", total);  // 输出15
+    
+    // 修改数组元素
+    doubleArray(numbers, len);
+    printf("修改后数组：");
+    for (int i = 0; i < len; i++) {
+        printf("%d ", numbers[i]);  // 输出2 4 6 8 10
+    }
+    printf("\n");
+    
+    return 0;
+}</code></pre>
+                </div>
+                
+                <div class="mt-4">
+                    <h4 class="font-semibold text-red-600 mb-2">易错点提醒</h4>
+                    <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
+                        <li>数组作为函数参数时，函数内通过sizeof(arr)获取的是指针的大小，不是数组的实际大小。</li>
+                        <li>必须手动传递数组长度作为参数，否则无法正确遍历数组。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 模块五：函数核心知识 - 结束 -->
+
+            <!-- 模块六：指针基础原理 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="31">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块六：指针基础原理</h2>
+                <p class="text-lg mb-8">指针是C语言的核心灵魂，本质是对内存地址的直接操作，是实现数组、字符串、函数高级用法的底层基础。</p>
                 
                 <div class="grid md:grid-cols-2 gap-8">
                     <div class="bg-gradient-to-br from-green-50 to-teal-50 p-6 rounded-xl shadow-md border border-green-100">
@@ -1098,9 +1565,9 @@ int main() {
                 </div>
             </div>
 
-            <!-- 5.1 指针定义与初始化 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="24">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">5.1 指针定义与初始化</h2>
+            <!-- 6.1 指针定义与初始化 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="32">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">6.1 指针定义与初始化</h2>
                 
                 <div class="mb-6">
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">核心概念</h3>
@@ -1113,8 +1580,7 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     // 定义变量
@@ -1124,15 +1590,15 @@ int main() {
     int* pa = &a;  // &是取地址符，获取a的内存地址
     
     // 输出地址
-    cout << "a的地址：" << &a << endl;
-    cout << "pa的值（即a的地址）：" << pa << endl;
+    printf("a的地址：%p\n", &a);
+    printf("pa的值（即a的地址）：%p\n", pa);
     
     // 解引用操作（访问指针指向的内容）
-    cout << "*pa的值（即a的值）：" << *pa << endl;  // 输出10
+    printf("*pa的值（即a的值）：%d\n", *pa);  // 输出10
     
     // 通过指针修改a的值
     *pa = 20;
-    cout << "修改后a的值：" << a << endl;  // 输出20
+    printf("修改后a的值：%d\n", a);  // 输出20
     
     return 0;
 }</code></pre>
@@ -1147,9 +1613,9 @@ int main() {
                 </div>
             </div>
 
-            <!-- 5.2 指针的大小与const修饰 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="25">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">5.2 指针的大小与const修饰</h2>
+            <!-- 6.2 指针的大小与const修饰 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="33">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">6.2 指针的大小与const修饰</h2>
                 
                 <div class="mb-6">
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">指针的大小</h3>
@@ -1189,8 +1655,7 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int a = 10, b = 20;
@@ -1205,18 +1670,18 @@ int main() {
     *p2 = 30;  // 正确：可以通过指针修改指向变量的值
     // p2 = &b;  // 错误：不可修改指针本身的指向
     
-    cout << "a的值：" << a << endl;  // 输出30
-    cout << "*p1的值：" << *p1 << endl;  // 输出20
+    printf("a的值：%d\n", a);  // 输出30
+    printf("*p1的值：%d\n", *p1);  // 输出20
     
     return 0;
 }</code></pre>
                 </div>
             </div>
 
-            <!-- 模块六：指针进阶应用 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="26">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块六：指针进阶应用</h2>
-                <p class="text-lg mb-8">指针的核心价值在于与数组、函数、字符串的结合，也是C++开发的核心难点与高频考点。</p>
+            <!-- 模块七：指针进阶应用 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="34">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块七：指针进阶应用</h2>
+                <p class="text-lg mb-8">指针的核心价值在于与数组、函数、字符串的结合，也是C语言的核心难点与高频考点。</p>
                 
                 <div class="grid md:grid-cols-3 gap-6">
                     <div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-xl shadow-md border border-yellow-100">
@@ -1254,7 +1719,7 @@ int main() {
             </div>
 
             <!-- 6.1 指针与数组 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="27">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="35">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">6.1 指针与数组</h2>
                 
                 <div class="mb-6">
@@ -1268,34 +1733,33 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int arr[5] = {1, 2, 3, 4, 5};
     int* pa = arr;  // 指针指向数组首元素
     
     // 输出数组元素（两种方式）
-    cout << "下标法访问：";
+    printf("下标法访问：");
     for (int i = 0; i < 5; i++) {
-        cout << arr[i] << " ";  // 下标法
+        printf("%d ", arr[i]);  // 下标法
     }
-    cout << endl;
+    printf("\n");
     
-    cout << "指针法访问：";
+    printf("指针法访问：");
     for (int i = 0; i < 5; i++) {
-        cout << *(pa + i) << " ";  // 指针法
+        printf("%d ", *(pa + i));  // 指针法
     }
-    cout << endl;
+    printf("\n");
     
     // 指针遍历
-    cout << "指针遍历：";
+    printf("指针遍历：");
     int* p = arr;
     for (int i = 0; i < 5; i++) {
-        cout << *p << " ";
+        printf("%d ", *p);
         p++;  // 指针++，指向下一个元素
     }
-    cout << endl;
+    printf("\n");
     
     return 0;
 }</code></pre>
@@ -1303,7 +1767,7 @@ int main() {
             </div>
 
             <!-- 6.2 指针与函数 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="28">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="36">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">6.2 指针与函数</h2>
                 
                 <div class="mb-6">
@@ -1340,8 +1804,7 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：地址传递修改实参</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 // 地址传递函数
 void swap(int* a, int* b) {
@@ -1352,11 +1815,11 @@ void swap(int* a, int* b) {
 
 int main() {
     int x = 10, y = 20;
-    cout << "交换前：x=" << x << ", y=" << y << endl;
+    printf("交换前：x=%d, y=%d\n", x, y);
     
     swap(&x, &y);  // 传递地址
     
-    cout << "交换后：x=" << x << ", y=" << y << endl;  // 输出x=20, y=10
+    printf("交换后：x=%d, y=%d\n", x, y);  // 输出x=20, y=10
     
     return 0;
 }</code></pre>
@@ -1372,7 +1835,7 @@ int main() {
             </div>
 
             <!-- 6.3 指针与字符串 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="29">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="37">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">6.3 指针与字符串</h2>
                 
                 <div class="mb-6">
@@ -1385,21 +1848,20 @@ int main() {
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：指针遍历字符串</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     // 字符指针定义字符串
     const char* p_str = "Hello, World!";
     
     // 指针遍历字符串（利用'\0'结束标记）
-    cout << "字符串内容：";
+    printf("字符串内容：");
     const char* p = p_str;
     while (*p != '\0') {
-        cout << *p;
+        printf("%c", *p);
         p++;  // 指针++，指向下一个字符
     }
-    cout << endl;
+    printf("\n");
     
     return 0;
 }</code></pre>
@@ -1438,10 +1900,267 @@ int main() {
                 </div>
             </div>
 
-            <!-- 模块七：现场实战题目 - 开始 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="30">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块七：现场实战编译题目</h2>
-                <p class="text-lg mb-8">4道典型题，含完整"需求→思路→代码→调试"全流程，确保每个题目均可直接编译运行。</p>
+
+
+
+            <!-- 模块六：指针进阶应用 - 结束 -->
+
+            <!-- 模块七：结构体核心知识 - 开始 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="38">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块七：结构体核心知识</h2>
+                <p class="text-lg mb-8">结构体是C语言中用于组合不同类型数据的复合数据类型，是实现复杂数据结构的基础。</p>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl shadow-md border border-purple-100">
+                        <div class="text-purple-600 text-4xl mb-4"><i class="fa fa-cubes"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">结构体基础</h3>
+                        <ul class="list-disc list-inside ml-2 space-y-2 text-gray-700">
+                            <li>结构体定义与声明</li>
+                            <li>结构体初始化</li>
+                            <li>结构体成员访问</li>
+                            <li>结构体大小计算</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-xl shadow-md border border-purple-100">
+                        <div class="text-purple-600 text-4xl mb-4"><i class="fa fa-code"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">结构体高级应用</h3>
+                        <ul class="list-disc list-inside ml-2 space-y-2 text-gray-700">
+                            <li>结构体数组</li>
+                            <li>结构体指针</li>
+                            <li>结构体作为函数参数</li>
+                            <li>嵌套结构体</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7.1 结构体定义与初始化 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="39">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">7.1 结构体定义与初始化</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">核心概念</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li><strong>结构体</strong>：一种用户自定义的复合数据类型，可以包含不同类型的成员变量。</li>
+                        <li><strong>定义格式</strong>：使用<code class="bg-gray-100 px-1 rounded">struct</code>关键字定义结构体类型。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：结构体定义与初始化</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+// 定义结构体类型
+struct Student {
+    char name[20];  // 姓名
+    int age;        // 年龄
+    float score;    // 分数
+};
+
+int main() {
+    // 初始化方法1：按顺序初始化
+    struct Student stu1 = {"张三", 18, 95.5};
+    
+    // 初始化方法2：指定成员初始化
+    struct Student stu2 = {
+        .name = "李四",
+        .age = 19,
+        .score = 88.0
+    };
+    
+    // 初始化方法3：先定义后赋值
+    struct Student stu3;
+    strcpy(stu3.name, "王五");
+    stu3.age = 20;
+    stu3.score = 92.5;
+    
+    // 输出结构体成员
+    printf("学生1：%s, %d岁, 分数：%.1f\n", stu1.name, stu1.age, stu1.score);
+    printf("学生2：%s, %d岁, 分数：%.1f\n", stu2.name, stu2.age, stu2.score);
+    printf("学生3：%s, %d岁, 分数：%.1f\n", stu3.name, stu3.age, stu3.score);
+    
+    return 0;
+}</code></pre>
+                </div>
+                
+                <div class="mt-4">
+                    <h4 class="font-semibold text-red-600 mb-2">易错点提醒</h4>
+                    <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
+                        <li>结构体定义末尾需要加分号。</li>
+                        <li>使用strcpy函数复制字符串时，需要包含头文件&lt;string.h&gt;。</li>
+                        <li>结构体变量名不是指针，不能直接赋值字符串，需要使用strcpy。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 7.2 结构体成员访问 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="40">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">7.2 结构体成员访问</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">核心方法</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li><strong>直接访问</strong>：使用<code class="bg-gray-100 px-1 rounded">结构体变量名.成员名</code>访问成员。</li>
+                        <li><strong>通过指针访问</strong>：使用<code class="bg-gray-100 px-1 rounded">指针变量-&gt;成员名</code>访问成员。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：结构体成员访问</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+struct Student {
+    char name[20];
+    int age;
+    float score;
+};
+
+int main() {
+    // 定义结构体变量
+    struct Student stu = {"张三", 18, 95.5};
+    
+    // 直接访问：使用点运算符
+    printf("姓名：%s\n", stu.name);
+    printf("年龄：%d\n", stu.age);
+    printf("分数：%.1f\n", stu.score);
+    
+    // 通过指针访问：使用箭头运算符
+    struct Student *p = &stu;
+    printf("\n通过指针访问：\n");
+    printf("姓名：%s\n", p-&gt;name);
+    printf("年龄：%d\n", p-&gt;age);
+    printf("分数：%.1f\n", p-&gt;score);
+    
+    // 修改成员值
+    strcpy(p-&gt;name, "李四");
+    p-&gt;age = 19;
+    p-&gt;score = 88.0;
+    
+    printf("\n修改后：\n");
+    printf("姓名：%s\n", stu.name);
+    printf("年龄：%d\n", stu.age);
+    printf("分数：%.1f\n", stu.score);
+    
+    return 0;
+}</code></pre>
+                </div>
+            </div>
+
+            <!-- 7.3 结构体数组 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="41">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">7.3 结构体数组</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">核心概念</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li><strong>结构体数组</strong>：元素为结构体类型的数组，用于存储多个相同结构的结构体数据。</li>
+                        <li><strong>访问方式</strong>：先通过数组下标访问结构体元素，再通过点运算符访问成员。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：结构体数组</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+struct Student {
+    char name[20];
+    int age;
+    float score;
+};
+
+int main() {
+    // 定义并初始化结构体数组
+    struct Student students[] = {
+        {"张三", 18, 95.5},
+        {"李四", 19, 88.0},
+        {"王五", 20, 92.5}
+    };
+    
+    // 计算数组长度
+    int len = sizeof(students) / sizeof(students[0]);
+    
+    // 遍历结构体数组
+    printf("学生信息：\n");
+    for (int i = 0; i < len; i++) {
+        printf("第%d个学生：%s, %d岁, 分数：%.1f\n", 
+               i+1, students[i].name, students[i].age, students[i].score);
+    }
+    
+    // 修改结构体数组元素
+    strcpy(students[1].name, "赵六");
+    students[1].score = 90.0;
+    
+    printf("\n修改后：\n");
+    printf("第2个学生：%s, %d岁, 分数：%.1f\n", 
+           students[1].name, students[1].age, students[1].score);
+    
+    return 0;
+}</code></pre>
+                </div>
+            </div>
+
+            <!-- 7.4 结构体作为函数参数 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="42">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">7.4 结构体作为函数参数</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">传递方式</h3>
+                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                        <li><strong>值传递</strong>：将结构体的副本传递给函数，函数内修改不会影响原结构体。</li>
+                        <li><strong>地址传递</strong>：将结构体的地址传递给函数，函数内修改会影响原结构体。</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">代码示例：结构体作为函数参数</h3>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+
+struct Student {
+    char name[20];
+    int age;
+    float score;
+};
+
+// 值传递
+void printStudent(struct Student s) {
+    printf("姓名：%s, 年龄：%d, 分数：%.1f\n", s.name, s.age, s.score);
+    // 修改不会影响原结构体
+    s.age = 25;
+}
+
+// 地址传递
+void updateStudent(struct Student *s) {
+    // 修改会影响原结构体
+    s-&gt;score += 5.0;
+    printf("更新后分数：%.1f\n", s-&gt;score);
+}
+
+int main() {
+    struct Student stu = {"张三", 18, 95.5};
+    
+    printf("原始信息：\n");
+    printf("姓名：%s, 年龄：%d, 分数：%.1f\n", stu.name, stu.age, stu.score);
+    
+    printf("\n值传递：\n");
+    printStudent(stu);
+    printf("值传递后：年龄 = %d\n", stu.age);  // 年龄不变
+    
+    printf("\n地址传递：\n");
+    updateStudent(&stu);
+    printf("地址传递后：分数 = %.1f\n", stu.score);  // 分数改变
+    
+    return 0;
+}</code></pre>
+                </div>
+            </div>
+
+            <!-- 模块七：结构体核心知识 - 结束 -->
+
+            <!-- 模块八：现场实战题目 - 开始 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="43">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">模块八：现场实战编译题目</h2>
+                <p class="text-lg mb-8">6道典型题，含完整"需求→思路→代码→调试"全流程，确保每个题目均可直接编译运行。</p>
                 
                 <div class="grid md:grid-cols-2 gap-8">
                     <div class="bg-gradient-to-br from-green-50 to-teal-50 p-6 rounded-xl shadow-md border border-green-100">
@@ -1463,15 +2182,27 @@ int main() {
                     </div>
                     
                     <div class="bg-gradient-to-br from-green-50 to-teal-50 p-6 rounded-xl shadow-md border border-green-100">
-                        <div class="text-green-600 text-4xl mb-4"><i class="fa fa-trophy"></i></div>
-                        <h3 class="text-xl font-bold mb-3 text-center">题目4：竞赛入门</h3>
-                        <p class="text-gray-700 text-center">数组版A+B Problem</p>
+                        <div class="text-green-600 text-4xl mb-4"><i class="fa fa-table"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">题目4：矩阵转置</h3>
+                        <p class="text-gray-700 text-center">二维数组应用</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-green-50 to-teal-50 p-6 rounded-xl shadow-md border border-green-100">
+                        <div class="text-green-600 text-4xl mb-4"><i class="fa fa-font"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">题目5：字符串反转</h3>
+                        <p class="text-gray-700 text-center">字符串应用</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-green-50 to-teal-50 p-6 rounded-xl shadow-md border border-green-100">
+                        <div class="text-green-600 text-4xl mb-4"><i class="fa fa-link"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">题目6：指针操作数组</h3>
+                        <p class="text-gray-700 text-center">指针应用</p>
                     </div>
                 </div>
             </div>
 
             <!-- 题目1：判断闰年 - 题目信息页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="31">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="44">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目1：流程控制综合 —— 判断闰年</h2>
                 
                 <div class="mb-6">
@@ -1493,24 +2224,23 @@ int main() {
             </div>
             
             <!-- 题目1：判断闰年 - 代码实现页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="32">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="45">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目1：判断闰年 — 代码实现</h2>
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">完整代码（带注释）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int year;
-    cout << "请输入年份：";
-    cin >> year;
+    printf("请输入年份：");
+    scanf("%d", &year);
 
     // 闰年判断条件
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-        cout << year << " 是闰年" << endl;
+        printf("%d 是闰年\n", year);
     } else {
-        cout << year << " 不是闰年" << endl;
+        printf("%d 不是闰年\n", year);
     }
 
     return 0;
@@ -1535,7 +2265,7 @@ int main() {
             </div>
 
             <!-- 题目2：数组逆序 - 题目信息页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="33">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="46">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目2：一维数组基础 —— 数组元素逆序存放</h2>
                 
                 <div class="mb-6">
@@ -1557,13 +2287,12 @@ int main() {
             </div>
             
             <!-- 题目2：数组逆序 - 代码实现页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="34">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="47">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目2：数组逆序 — 代码实现</h2>
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">完整代码（带注释）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int arr[5];
@@ -1571,10 +2300,10 @@ int main() {
     int temp;  // 临时变量，用于交换
 
     // 1. 输入5个整数
-    cout << "请输入5个整数：" << endl;
+    printf("请输入5个整数：\n");
     for (int i = 0; i < len; i++) {
-        cout << "第" << i+1 << "个整数：";
-        cin >> arr[i];
+        printf("第%d个整数：", i+1);
+        scanf("%d", &arr[i]);
     }
 
     // 2. 逆序交换（循环到中间位置即可，i < len/2）
@@ -1585,9 +2314,9 @@ int main() {
     }
 
     // 3. 输出逆序后的数组
-    cout << "逆序后的数组：";
+    printf("逆序后的数组：");
     for (int i = 0; i < len; i++) {
-        cout << arr[i] << " ";
+        printf("%d ", arr[i]);
     }
 
     return 0;
@@ -1608,7 +2337,7 @@ int main() {
             </div>
 
             <!-- 题目3：统计偶数 - 题目信息页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="35">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="48">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目3：循环 + 数组综合 —— 统计数组中偶数的个数与和</h2>
                 
                 <div class="mb-6">
@@ -1630,13 +2359,12 @@ int main() {
             </div>
             
             <!-- 题目3：统计偶数 - 代码实现页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="36">
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="49">
                 <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目3：统计偶数 — 代码实现</h2>
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">完整代码（带注释）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     // 初始化包含10个整数的数组
@@ -1646,9 +2374,9 @@ int main() {
     int even_sum = 0; // 偶数和
 
     // 遍历数组，统计偶数
-    cout << "数组中的元素：";
+    printf("数组中的元素：");
     for (int i = 0; i < len; i++) {
-        cout << arr[i] << " ";
+        printf("%d ", arr[i]);
         // 判断是否为偶数
         if (arr[i] % 2 == 0) {
             count++;
@@ -1657,8 +2385,8 @@ int main() {
     }
 
     // 输出结果
-    cout << "\n数组中偶数的个数：" << count << endl;    // 输出5
-    cout << "数组中所有偶数的和：" << even_sum << endl; // 输出30（2+4+6+8+10）
+    printf("\n数组中偶数的个数：%d\n", count);    // 输出5
+    printf("数组中所有偶数的和：%d\n", even_sum); // 输出30（2+4+6+8+10）
 
     return 0;
 }</code></pre>
@@ -1677,85 +2405,9 @@ int main() {
                 </div>
             </div>
 
-            <!-- 题目4：竞赛入门 - 题目信息页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="37">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目4：竞赛入门基础题 —— 洛谷 P1001 A+B Problem（改编：数组版）</h2>
-                
-                <div class="mb-6">
-                    <h3 class="text-lg font-semibold mb-3 text-gray-800">需求分析</h3>
-                    <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
-                        <li>输入两个整数a和b，再输入一个长度为a+b的数组，将数组中前a个元素的和与后b个元素的和相加，输出结果（模拟竞赛题的输入输出逻辑）。</li>
-                    </ul>
-                </div>
-                
-                <div class="mb-6">
-                    <h3 class="text-lg font-semibold mb-3 text-gray-800">思路梳理</h3>
-                    <ol class="list-decimal list-inside ml-4 space-y-2 text-gray-700">
-                        <li>输入a和b（如a=2，b=3，数组长度为5）。</li>
-                        <li>输入长度为a+b的数组（如1 2 3 4 5）。</li>
-                        <li>计算前a个元素的和（1+2=3），后b个元素的和（3+4+5=12）。</li>
-                        <li>输出总和（3+12=15）。</li>
-                    </ol>
-                </div>
-            </div>
-            
-            <!-- 题目4：竞赛入门 - 代码实现页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="38">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目4：竞赛入门 — 代码实现</h2>
-                
-                <div>
-                    <h3 class="text-lg font-semibold mb-3 text-gray-800">完整代码（带注释）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
-
-int main() {
-    int a, b;
-    cout << "请输入a和b（用空格分隔）：";
-    cin >> a >> b;
-
-    int len = a + b;
-    int arr[len];  // 变长数组（部分编译器支持，若不支持可改为固定长度如100）
-    int sum1 = 0, sum2 = 0;  // sum1：前a个和；sum2：后b个和
-
-    // 1. 输入数组元素
-    cout << "请输入" << len << "个整数（用空格分隔）：";
-    for (int i = 0; i < len; i++) {
-        cin >> arr[i];
-    }
-
-    // 2. 计算前a个元素的和
-    for (int i = 0; i < a; i++) {
-        sum1 += arr[i];
-    }
-
-    // 3. 计算后b个元素的和（从i=a开始，到i=len-1结束）
-    for (int i = a; i < len; i++) {
-        sum2 += arr[i];
-    }
-
-    // 4. 输出结果
-    cout << "前" << a << "个元素的和：" << sum1 << endl;
-    cout << "后" << b << "个元素的和：" << sum2 << endl;
-    cout << "总和：" << sum1 + sum2 << endl;
-
-    return 0;
-}</code></pre>
-                </div>
-                
-                <div class="mt-4 bg-blue-50 p-4 rounded-lg">
-                    <h4 class="font-semibold text-blue-800 mb-2">编译演示步骤：</h4>
-                    <p class="text-gray-700">保存代码为competition_a_plus_b.cpp，若编译器不支持变长数组，将int arr[len]改为int arr[100]（假设a+b不超过100）。运行输入2 3，再输入1 2 3 4 5 → 输出总和15。</p>
-                </div>
-                
-                <div class="mt-4 bg-yellow-50 p-4 rounded border border-yellow-200">
-                    <h4 class="font-semibold text-yellow-800 mb-2">竞赛小贴士：</h4>
-                    <p class="text-yellow-800 text-sm">竞赛中输入输出需简洁：可去掉多余提示，直接输入输出（如cin >> a >> b;，cout << sum1 + sum2 << endl;），避免超时。</p>
-                </div>
-            </div>
-
-            <!-- 题目5：二维数组应用 — 矩阵转置 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="39">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目5：二维数组应用 —— 矩阵转置</h2>
+            <!-- 题目4：二维数组应用 — 矩阵转置 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="50">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目4：二维数组应用 —— 矩阵转置</h2>
                 
                 <div class="mb-6">
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">需求分析</h3>
@@ -1775,14 +2427,13 @@ int main() {
                 </div>
             </div>
             
-            <!-- 题目5：矩阵转置 - 代码实现页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="40">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目5：矩阵转置 — 代码实现</h2>
+            <!-- 题目4：矩阵转置 - 代码实现页 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="51">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目4：矩阵转置 — 代码实现</h2>
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">完整代码（带注释）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     const int N = 3;
@@ -1790,11 +2441,11 @@ int main() {
     int transposed[N][N];
     
     // 1. 输入矩阵元素
-    cout << "请输入3×3矩阵的元素（每行3个数，用空格分隔）：" << endl;
+    printf("请输入3×3矩阵的元素（每行3个数，用空格分隔）：\n");
     for (int i = 0; i < N; i++) {
-        cout << "第" << i+1 << "行：";
+        printf("第%d行：", i+1);
         for (int j = 0; j < N; j++) {
-            cin >> matrix[i][j];
+            scanf("%d", &matrix[i][j]);
         }
     }
     
@@ -1806,21 +2457,21 @@ int main() {
     }
     
     // 3. 输出原矩阵
-    cout << "\n原矩阵：" << endl;
+    printf("\n原矩阵：\n");
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
-            cout << matrix[i][j] << " ";
+            printf("%d ", matrix[i][j]);
         }
-        cout << endl;
+        printf("\n");
     }
     
     // 4. 输出转置后的矩阵
-    cout << "转置后的矩阵：" << endl;
+    printf("转置后的矩阵：\n");
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
-            cout << transposed[i][j] << " ";
+            printf("%d ", transposed[i][j]);
         }
-        cout << endl;
+        printf("\n");
     }
     
     return 0;
@@ -1841,9 +2492,9 @@ int main() {
                 </div>
             </div>
 
-            <!-- 题目6：字符串应用 — 字符串反转 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="41">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目6：字符串应用 —— 字符串反转</h2>
+            <!-- 题目5：字符串应用 — 字符串反转 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="52">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目5：字符串应用 —— 字符串反转</h2>
                 
                 <div class="mb-6">
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">需求分析</h3>
@@ -1863,31 +2514,38 @@ int main() {
                 </div>
             </div>
             
-            <!-- 题目6：字符串反转 - 代码实现页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="42">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目6：字符串反转 — 代码实现</h2>
+            <!-- 题目5：字符串反转 - 代码实现页 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="53">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目5：字符串反转 — 代码实现</h2>
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">完整代码（带注释）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-#include &lt;string&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
 
 int main() {
-    string s;
+    char s[100];  // 假设字符串长度不超过100
     
     // 1. 输入字符串
-    cout << "请输入一个字符串：";
-    getline(cin, s);  // 使用getline可以接收包含空格的字符串
+    printf("请输入一个字符串：");
+    fgets(s, sizeof(s), stdin);  // 使用fgets可以接收包含空格的字符串
+    
+    // 移除fgets添加的换行符
+    int len = strlen(s);
+    if (len > 0 && s[len-1] == '\n') {
+        s[len-1] = '\0';
+        len--;
+    }
     
     // 2. 字符串反转
-    int len = s.length();
     for (int i = 0; i < len / 2; i++) {
-        swap(s[i], s[len - 1 - i]);  // 交换字符
+        char temp = s[i];
+        s[i] = s[len - 1 - i];
+        s[len - 1 - i] = temp;  // 交换字符
     }
     
     // 3. 输出反转后的字符串
-    cout << "反转后的字符串：" << s << endl;
+    printf("反转后的字符串：%s\n", s);
     
     return 0;
 }</code></pre>
@@ -1907,9 +2565,9 @@ int main() {
                 </div>
             </div>
 
-            <!-- 题目7：指针应用 — 指针操作数组 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="43">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目7：指针应用 —— 指针操作数组</h2>
+            <!-- 题目6：指针应用 — 指针操作数组 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="54">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目6：指针应用 —— 指针操作数组</h2>
                 
                 <div class="mb-6">
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">需求分析</h3>
@@ -1929,14 +2587,13 @@ int main() {
                 </div>
             </div>
             
-            <!-- 题目7：指针操作数组 - 代码实现页 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="44">
-                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目7：指针操作数组 — 代码实现</h2>
+            <!-- 题目6：指针操作数组 - 代码实现页 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="55">
+                <h2 class="text-[clamp(1.3rem,3vw,2rem)] font-bold text-primary mb-6">题目6：指针操作数组 — 代码实现</h2>
                 
                 <div>
                     <h3 class="text-lg font-semibold mb-3 text-gray-800">完整代码（带注释）</h3>
-                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;iostream&gt;
-using namespace std;
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto code-block"><code class="language-cpp">#include &lt;stdio.h&gt;
 
 int main() {
     int arr[] = {10, 20, 30, 40, 50};
@@ -1948,19 +2605,19 @@ int main() {
     int* p = arr;
     
     // 使用指针遍历数组，计算和
-    cout << "数组元素：";
+    printf("数组元素：");
     for (int i = 0; i < len; i++) {
-        cout << *p << " ";
+        printf("%d ", *p);
         sum += *p;
         p++;  // 指针++，指向下一个元素
     }
     
     // 计算平均值
-    avg = static_cast<double>(sum) / len;
+    avg = (double)sum / len;
     
     // 输出结果
-    cout << "\n数组元素和：" << sum << endl;
-    cout << "数组元素平均值：" << avg << endl;
+    printf("\n数组元素和：%d\n", sum);
+    printf("数组元素平均值：%lf\n", avg);
     
     return 0;
 }</code></pre>
@@ -1979,142 +2636,61 @@ int main() {
                     </ul>
                 </div>
             </div>
-            <!-- 模块三：现场实战题目 - 结束 -->
 
-            <!-- 竞赛入门引导 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="45">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">竞赛入门引导</h2>
+            <!-- 考试注意事项 -->
+            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="56">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">考试注意事项</h2>
+                <p class="text-lg mb-8">为了确保考试顺利进行，请注意以下几点：</p>
                 
-                <div class="space-y-8">
-                    <div class="bg-indigo-50 p-6 rounded-lg border border-indigo-100">
-                        <h3 class="text-xl font-semibold mb-3 text-indigo-800 flex items-center">
-                            <i class="fa fa-trophy mr-2"></i>常见算法竞赛
-                        </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-xl shadow-md border border-yellow-100">
+                        <div class="text-yellow-600 text-4xl mb-4"><i class="fa fa-code"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">VSCode调试技巧</h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
-                            <li>ACM-ICPC（国际大学生程序设计竞赛）</li>
-                            <li>CCF CSP认证</li>
-                            <li>蓝桥杯（全国软件和信息技术专业人才大赛）</li>
-                            <li>LeetCode周赛/双周赛</li>
-                            <li>Codeforces/Round Table等在线竞赛</li>
+                            <li>设置断点：点击行号左侧添加断点</li>
+                            <li>启动调试：按F5或点击调试按钮</li>
+                            <li>单步执行：F10（逐过程）、F11（逐语句）</li>
+                            <li>查看变量：在调试面板中查看变量值</li>
                         </ul>
                     </div>
                     
-                    <div class="bg-indigo-50 p-6 rounded-lg border border-indigo-100">
-                        <h3 class="text-xl font-semibold mb-3 text-indigo-800 flex items-center">
-                            <i class="fa fa-lightbulb-o mr-2"></i>学习经验分享
-                        </h3>
+                    <div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-xl shadow-md border border-yellow-100">
+                        <div class="text-yellow-600 text-4xl mb-4"><i class="fa fa-save"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">自动保存设置</h3>
                         <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
-                            <li>多动手写代码，少看多练</li>
-                            <li>从简单题目开始，循序渐进</li>
-                            <li>学会调试，理解错误信息</li>
-                            <li>参与项目实践，学以致用</li>
-                            <li>定期复习，构建知识体系</li>
+                            <li>电脑机房的VSCode默认可能未开启自动保存</li>
+                            <li>开启方法：文件 → 自动保存（勾选）</li>
+                            <li>或使用快捷键：Ctrl+Shift+P → 输入"自动保存" → 选择开启</li>
+                            <li>建议考试前确认自动保存已开启，避免代码丢失</li>
                         </ul>
                     </div>
                     
-                    <div class="bg-indigo-50 p-6 rounded-lg border border-indigo-100">
-                        <h3 class="text-xl font-semibold mb-3 text-indigo-800 flex items-center">
-                            <i class="fa fa-road mr-2"></i>后续学习路线建议
-                        </h3>
-                        <div class="grid md:grid-cols-3 gap-4">
-                            <div class="bg-white p-4 rounded border border-gray-200">
-                                <h4 class="font-semibold mb-2 text-green-700">初级阶段</h4>
-                                <ul class="list-disc list-inside ml-2 space-y-1 text-sm text-gray-700">
-                                    <li>掌握C++基础语法</li>
-                                    <li>理解指针概念</li>
-                                    <li>学习简单数据结构</li>
-                                    <li>练习基础算法</li>
-                                </ul>
-                            </div>
-                            <div class="bg-white p-4 rounded border border-gray-200">
-                                <h4 class="font-semibold mb-2 text-yellow-700">中级阶段</h4>
-                                <ul class="list-disc list-inside ml-2 space-y-1 text-sm text-gray-700">
-                                    <li>学习C++面向对象</li>
-                                    <li>掌握STL标准库</li>
-                                    <li>学习常用算法模板</li>
-                                    <li>参与简单项目开发</li>
-                                </ul>
-                            </div>
-                            <div class="bg-white p-4 rounded border border-gray-200">
-                                <h4 class="font-semibold mb-2 text-red-700">高级阶段</h4>
-                                <ul class="list-disc list-inside ml-2 space-y-1 text-sm text-gray-700">
-                                    <li>深入学习算法设计</li>
-                                    <li>参加算法竞赛</li>
-                                    <li>参与开源项目</li>
-                                    <li>学习系统编程</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 竞赛学习资源 -->
-            <div class="slide absolute inset-0 flex flex-col p-12 opacity-0 transition-opacity duration-500" data-index="46">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-6 border-b-2 border-primary pb-2">竞赛学习资源与平台</h2>
-                
-                <div class="space-y-6">
-                    <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-                        <h3 class="text-xl font-semibold mb-3 text-blue-700 flex items-center">
-                            <i class="fa fa-desktop mr-2"></i>在线判题平台
-                        </h3>
-                        <div class="grid md:grid-cols-2 gap-4">
-                            <div class="bg-gray-50 p-4 rounded border border-gray-200">
-                                <h4 class="font-semibold mb-2">国内平台</h4>
-                                <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
-                                    <li>洛谷（www.luogu.com.cn） - 适合初学者</li>
-                                    <li>力扣（leetcode.cn） - 面试刷题必备</li>
-                                    <li>牛客网（www.nowcoder.com） - 笔试面试真题</li>
-                                    <li>POJ（poj.org） - 北京大学在线评测</li>
-                                </ul>
-                            </div>
-                            <div class="bg-gray-50 p-4 rounded border border-gray-200">
-                                <h4 class="font-semibold mb-2">国际平台</h4>
-                                <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
-                                    <li>Codeforces（codeforces.com） - 周赛质量高</li>
-                                    <li>AtCoder（atcoder.jp） - 日本竞赛平台</li>
-                                    <li>LeetCode（leetcode.com） - 全球技术面试平台</li>
-                                    <li>HackerRank（hackerrank.com） - 企业招聘常用</li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-xl shadow-md border border-yellow-100">
+                        <div class="text-yellow-600 text-4xl mb-4"><i class="fa fa-folder-open"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">文件路径注意事项</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                            <li>代码文件必须放在纯英文路径下</li>
+                            <li>避免使用中文、空格或特殊字符</li>
+                            <li>建议路径示例：D:\exam\code\main.c</li>
+                            <li>中文路径会导致编译器无法识别文件</li>
+                        </ul>
                     </div>
                     
-                    <div class="bg-white p-6 rounded-lg shadow-md border border-gray-200">
-                        <h3 class="text-xl font-semibold mb-3 text-green-700 flex items-center">
-                            <i class="fa fa-book mr-2"></i>推荐学习资料
-                        </h3>
-                        <div class="grid md:grid-cols-2 gap-4">
-                            <div class="bg-gray-50 p-4 rounded border border-gray-200">
-                                <h4 class="font-semibold mb-2">书籍</h4>
-                                <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
-                                    <li>《算法竞赛入门经典》- 刘汝佳</li>
-                                    <li>《啊哈！算法》- 纪磊</li>
-                                    <li>《挑战程序设计竞赛》- 秋叶拓哉</li>
-                                    <li>《算法导论》- Thomas H. Cormen</li>
-                                </ul>
-                            </div>
-                            <div class="bg-gray-50 p-4 rounded border border-gray-200">
-                                <h4 class="font-semibold mb-2">在线资源</h4>
-                                <ul class="list-disc list-inside ml-2 space-y-1 text-gray-700">
-                                    <li>OI Wiki（oi-wiki.org） - 算法竞赛知识整合</li>
-                                    <li>CP-Algorithms（cp-algorithms.com）</li>
-                                    <li>GeeksforGeeks（geeksforgeeks.org）</li>
-                                    <li>各大高校ACM集训队资料</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
-                        <h4 class="font-semibold text-yellow-800 mb-2">学习建议</h4>
-                        <p class="text-gray-700">每日坚持刷题（至少1-2题），注重算法思想理解而非死记硬背。参加线上模拟赛熟悉比赛节奏，遇到难题先独立思考，再参考题解。形成自己的算法模板库，定期复习巩固。</p>
+                    <div class="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-xl shadow-md border border-yellow-100">
+                        <div class="text-yellow-600 text-4xl mb-4"><i class="fa fa-exclamation-triangle"></i></div>
+                        <h3 class="text-xl font-bold mb-3 text-center">其他注意事项</h3>
+                        <ul class="list-disc list-inside ml-4 space-y-2 text-gray-700">
+                            <li>考试前检查编译器是否正常工作</li>
+                            <li>注意代码格式，保持缩进一致</li>
+                            <li>仔细阅读题目要求，确保理解正确</li>
+                            <li>遇到问题及时向监考老师求助</li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
             <!-- 结束页 -->
-            <div class="slide absolute inset-0 flex flex-col items-center justify-center p-8 opacity-0 transition-opacity duration-500" data-index="47">
+            <div class="slide absolute inset-0 flex flex-col items-center justify-center p-8 opacity-0 transition-opacity duration-500" data-index="57">
                 <h1 class="text-[clamp(1.8rem,5vw,3rem)] font-bold text-primary text-center mb-8 text-shadow">复习结束，谢谢观看！</h1>
                 <p class="text-xl text-gray-600 mb-4">祝期末考试顺利，编程愉快！</p>
                 <p class="text-lg text-gray-500 mb-12">有任何问题欢迎随时提问</p>
@@ -2313,29 +2889,62 @@ int main() {
                 const tocItems = [
                     { index: 0, title: "封面" },
                     { index: 1, title: "讲座结构" },
-                    { index: 2, title: "模块一：程序流程控制" },
-                    { index: 3, title: "1.1 顺序结构" },
-                    { index: 4, title: "1.2 选择结构" },
-                    { index: 5, title: "代码示例：成绩评级" },
-                    { index: 6, title: "1.2.2 switch语句" },
-                    { index: 7, title: "代码示例：简易菜单选择" },
-                    { index: 8, title: "1.3 循环结构" },
-                    { index: 9, title: "循环结构：详细代码示例" },
-                    { index: 10, title: "1.3.2 循环嵌套" },
-                    { index: 11, title: "模块二：一维数组" },
-                    { index: 12, title: "2.1 一维数组核心知识点" },
-                    { index: 13, title: "2.1.2 数组长度计算" },
-                    { index: 14, title: "2.1.3 一维数组典型操作" },
-                    { index: 15, title: "找数组中的最大值与最小值" },
-                    { index: 16, title: "2.2 一维数组与字符串的基础关联" },
-                    { index: 17, title: "模块三：现场实战题目" },
-                    { index: 18, title: "题目1：判断闰年" },
-                    { index: 19, title: "题目2：数组逆序" },
-                    { index: 20, title: "题目3：统计偶数" },
-                    { index: 21, title: "题目4：竞赛入门" },
-                    { index: 22, title: "竞赛入门引导" },
-                    { index: 23, title: "竞赛学习资源与平台" },
-                    { index: 24, title: "结束页" }
+                    { index: 2, title: "模块一：基本数据类型与运算符" },
+                    { index: 3, title: "1.1 基本数据类型" },
+                    { index: 4, title: "1.2 运算符与优先级" },
+                    { index: 5, title: "模块二：程序流程控制" },
+                    { index: 6, title: "1.1 顺序结构" },
+                    { index: 7, title: "1.2 选择结构" },
+                    { index: 8, title: "代码示例：成绩评级" },
+                    { index: 9, title: "1.2.2 switch语句" },
+                    { index: 10, title: "代码示例：简易菜单选择" },
+                    { index: 11, title: "1.3 循环结构" },
+                    { index: 12, title: "循环结构：详细代码示例" },
+                    { index: 13, title: "1.3.2 循环嵌套" },
+                    { index: 14, title: "模块二：一维数组" },
+                    { index: 15, title: "2.1 一维数组核心知识点" },
+                    { index: 16, title: "2.1.2 数组长度计算" },
+                    { index: 17, title: "2.1.3 一维数组典型操作" },
+                    { index: 18, title: "找数组中的最大值与最小值" },
+                    { index: 19, title: "2.2 一维数组与字符串的基础关联" },
+                    { index: 20, title: "模块三：二维数组核心知识" },
+                    { index: 21, title: "3.1 二维数组定义与初始化" },
+                    { index: 22, title: "3.2 二维数组遍历与访问" },
+                    { index: 23, title: "模块四：字符串核心知识" },
+                    { index: 24, title: "4.1 C风格字符串" },
+                    { index: 25, title: "4.2 字符串操作函数" },
+                    { index: 26, title: "模块五：函数核心知识" },
+                    { index: 27, title: "5.1 函数定义与声明" },
+                    { index: 28, title: "5.2 函数参数与返回值" },
+                    { index: 29, title: "5.3 递归函数" },
+                    { index: 30, title: "5.4 函数与数组" },
+                    { index: 31, title: "模块六：指针基础原理" },
+                    { index: 32, title: "6.1 指针定义与初始化" },
+                    { index: 33, title: "6.2 指针的大小与const修饰" },
+                    { index: 34, title: "模块七：指针进阶应用" },
+                    { index: 35, title: "6.1 指针与数组" },
+                    { index: 36, title: "6.2 指针与函数" },
+                    { index: 37, title: "6.3 指针与字符串" },
+                    { index: 38, title: "模块七：结构体核心知识" },
+                    { index: 39, title: "7.1 结构体定义与初始化" },
+                    { index: 40, title: "7.2 结构体成员访问" },
+                    { index: 41, title: "7.3 结构体数组" },
+                    { index: 42, title: "7.4 结构体作为函数参数" },
+                    { index: 43, title: "模块八：现场实战题目" },
+                    { index: 44, title: "题目1：判断闰年" },
+                    { index: 45, title: "题目1：判断闰年 — 代码实现" },
+                    { index: 46, title: "题目2：数组逆序" },
+                    { index: 47, title: "题目2：数组逆序 — 代码实现" },
+                    { index: 48, title: "题目3：统计偶数" },
+                    { index: 49, title: "题目3：统计偶数 — 代码实现" },
+                    { index: 50, title: "题目4：矩阵转置" },
+                    { index: 51, title: "题目4：矩阵转置 — 代码实现" },
+                    { index: 52, title: "题目5：字符串反转" },
+                    { index: 53, title: "题目5：字符串反转 — 代码实现" },
+                    { index: 54, title: "题目6：指针操作数组" },
+                    { index: 55, title: "题目6：指针操作数组 — 代码实现" },
+                    { index: 56, title: "考试注意事项" },
+                    { index: 57, title: "结束页" }
                 ];
                 
                 // 移除滚轮切换幻灯片功能，保留幻灯片内部滚动
